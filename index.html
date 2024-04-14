@@ -56,7 +56,7 @@
         $(function () {
             $('form').submit(function () {
                 const target    = $('input[name="target"]').val();
-                const msg = `'今日の目標は、'\n${target}\n$'です'`;
+                const msg = `'今日の目標は、'\n${target}\n'です'`;
                 sendText(msg);
                 return false;
             });
